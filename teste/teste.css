@@ -1,0 +1,18 @@
+
+.flexItem fistRow {
+    background-color: aqua;
+    
+}
+
+.flexContaincer {
+    display: flex;
+}
+
+.flexItem {
+    width: 200px;
+    height: 200px;
+}
+
+.flexItem:first-child {
+    flex-shrink: 2;
+  }
